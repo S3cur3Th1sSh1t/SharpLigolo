@@ -1,11 +1,12 @@
-# Sharp-Ligolo
+# SharpLigolo
+
 C# Wrapper of Ligolo from https://github.com/sysdream/ligolo 
 
 I did this mainly to experiment for myself with embedding golang binaries in C#.
 
 This C# wrapper has no certificates embedded. So you can only run it with the -skipverify option which is not recommended:
 
-![alt text](https://raw.githubusercontent.com/S3cur3Th1sSh1t/SharpLigolo/master/images/Ligolo.JPG)
+![alt text](https://github.com/S3cur3Th1sSh1t/SharpLigolo/raw/main/images/Ligolo.JPG)
 
 To stay on the safe side build the binary for yourself with embedded certificates.
 
