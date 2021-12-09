@@ -10,6 +10,8 @@ This C# wrapper has no certificates embedded. So you can only run it with the -s
 
 To stay on the safe side build the binary for yourself with embedded certificates.
 
+This technique has one big disadvantage. It writes the dll to appdata on runtime. Therefore it's easy to spot for defenders. 
+
 The main.go file was changed like this before compilation:
 
 ```
